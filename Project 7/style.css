@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.youtube-logo img {
+    width: 130px;
+    height: auto;
+}
+
+.avtaar {
+    width: 35px;
+}
+
+.center_nav {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+}
+
+.search input {
+    min-width: 600px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+}
+
+.search button {
+    border: none;
+    padding: 5px 15px;
+}
+
+.mic {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ecebeb;
+    display: grid;
+    place-items: center;
+    margin-left: 30px;
+}
+
+.side_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.tags {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    padding: 10px 20px;
+    border-top: 1px solid #bbbaba;
+}
+
+.tag {
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(22, 22, 22);
+}
+
+.dark {
+    background-color: black;
+    color: white;
+    font-weight: 400;
+}
+
+.light {
+    font-weight: 400;
+    background-color: #ece9e9;
+    color: rgba(67, 67, 67);
+}
+
+.container {
+    display: flex;
+}
+
+aside {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.bar_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bar_icons img {
+    width: 30px;
+}
+
+.bar_icons p {
+    font-size: 10px;
+}
+
+.bars {
+    margin-top: 10px;
+}
+
+.main_container {
+    width: 100%;
+}
+
+.card_container {
+    min-height: 100vh;
+    background-color: #e0dede;
+}
+
+.card img {
+    width: 300px;
+}
+
+.avtar img {
+    width: 40px;
+}
+
+.dots img {
+    width: 30px;
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card {
+    padding: 10px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_content {
+    display: flex;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.content h3 {
+    font-size: 16px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content_status {
+    font-size: 14px;
+}
+
+.channel_name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content_status {
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+}
+
+main {
+    margin-top: 20px;
+}

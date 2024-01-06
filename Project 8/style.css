@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    /* gap: 50px; */
+    font-size: 10px;
+}
+
+.container1 {
+    border: 2px solid #ccc;
+    padding: 10px;
+    max-height: 100vh;
+    position: sticky;
+    left: 0;
+}
+
+.heading h3 {
+    font-size: 3em;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+}
+
+.txt ul {
+    list-style: none;
+    font-weight: 200;
+    border-bottom: 1px solid #ccc;
+}
+
+.txt a {
+    text-decoration: none;
+    color: black;
+}
+
+.txt ul li {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.txt ul li:hover {
+    background-color: #CCC;
+    transition: 0.4s ease-in-out;
+}
+
+.txt {
+    margin-top: 20px;
+}
+
+
+
+main {
+    padding: 50px;
+    max-width: 1200px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 24px;
+}
+
+article p {
+    font-size: 15px;
+    margin: 20px;
+}
+
+article {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+article ul li {
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+code {
+    white-space: pre-Line;
+    /* background-color: #CCC; */
+    margin-left: 50px;
+}
+
+@media(max-width:450px) {
+    header {
+        flex-direction: column;
+    }
+
+    .container1 {
+        overflow-y: scroll;
+        height: 200px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
